@@ -13,6 +13,15 @@
 		CC484A412A0E9A240003C4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC484A402A0E9A240003C4F5 /* Preview Assets.xcassets */; };
 		CC484A432A0E9A240003C4F5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC484A422A0E9A240003C4F5 /* Persistence.swift */; };
 		CC484A462A0E9A240003C4F5 /* Solarsystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC484A442A0E9A240003C4F5 /* Solarsystem.xcdatamodeld */; };
+		CC484A4F2A0E9AA40003C4F5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A4E2A0E9AA40003C4F5 /* FirebaseAnalytics */; };
+		CC484A512A0E9AA40003C4F5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A502A0E9AA40003C4F5 /* FirebaseAuth */; };
+		CC484A532A0E9AA40003C4F5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A522A0E9AA40003C4F5 /* FirebaseFirestore */; };
+		CC484A552A0E9AA40003C4F5 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A542A0E9AA40003C4F5 /* FirebaseMessaging */; };
+		CC484A582A0E9AE00003C4F5 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A572A0E9AE00003C4F5 /* RevenueCat */; };
+		CC73440E2A0ED38C00077BB0 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73440D2A0ED38C00077BB0 /* Signup.swift */; };
+		CC7344112A0ED3F700077BB0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7344102A0ED3F700077BB0 /* StoreKit.framework */; };
+		CC7344142A0ED62400077BB0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344132A0ED62400077BB0 /* Login.swift */; };
+		CC7344172A0ED66300077BB0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344162A0ED66300077BB0 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,11 @@
 		CC484A422A0E9A240003C4F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CC484A452A0E9A240003C4F5 /* Solarsystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solarsystem.xcdatamodel; sourceTree = "<group>"; };
 		CC484A472A0E9A240003C4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC73440D2A0ED38C00077BB0 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		CC7344102A0ED3F700077BB0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CC7344122A0ED40500077BB0 /* Solarsystem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solarsystem.entitlements; sourceTree = "<group>"; };
+		CC7344132A0ED62400077BB0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		CC7344162A0ED66300077BB0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC484A552A0E9AA40003C4F5 /* FirebaseMessaging in Frameworks */,
+				CC484A4F2A0E9AA40003C4F5 /* FirebaseAnalytics in Frameworks */,
+				CC484A582A0E9AE00003C4F5 /* RevenueCat in Frameworks */,
+				CC7344112A0ED3F700077BB0 /* StoreKit.framework in Frameworks */,
+				CC484A512A0E9AA40003C4F5 /* FirebaseAuth in Frameworks */,
+				CC484A532A0E9AA40003C4F5 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +62,7 @@
 			children = (
 				CC484A382A0E9A220003C4F5 /* Solarsystem */,
 				CC484A372A0E9A220003C4F5 /* Products */,
+				CC73440F2A0ED3F700077BB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +77,8 @@
 		CC484A382A0E9A220003C4F5 /* Solarsystem */ = {
 			isa = PBXGroup;
 			children = (
+				CC7344122A0ED40500077BB0 /* Solarsystem.entitlements */,
+				CC73440A2A0ED36100077BB0 /* Views */,
 				CC484A392A0E9A220003C4F5 /* SolarsystemApp.swift */,
 				CC484A3B2A0E9A220003C4F5 /* ContentView.swift */,
 				CC484A3D2A0E9A240003C4F5 /* Assets.xcassets */,
@@ -75,6 +98,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CC73440A2A0ED36100077BB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC73440B2A0ED36B00077BB0 /* User */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC73440B2A0ED36B00077BB0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				CC7344152A0ED64B00077BB0 /* Profile */,
+				CC73440C2A0ED37600077BB0 /* Auth */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		CC73440C2A0ED37600077BB0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CC73440D2A0ED38C00077BB0 /* Signup.swift */,
+				CC7344132A0ED62400077BB0 /* Login.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		CC73440F2A0ED3F700077BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC7344102A0ED3F700077BB0 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7344152A0ED64B00077BB0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC7344162A0ED66300077BB0 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +156,13 @@
 			dependencies = (
 			);
 			name = Solarsystem;
+			packageProductDependencies = (
+				CC484A4E2A0E9AA40003C4F5 /* FirebaseAnalytics */,
+				CC484A502A0E9AA40003C4F5 /* FirebaseAuth */,
+				CC484A522A0E9AA40003C4F5 /* FirebaseFirestore */,
+				CC484A542A0E9AA40003C4F5 /* FirebaseMessaging */,
+				CC484A572A0E9AE00003C4F5 /* RevenueCat */,
+			);
 			productName = Solarsystem;
 			productReference = CC484A362A0E9A220003C4F5 /* Solarsystem.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +191,10 @@
 				Base,
 			);
 			mainGroup = CC484A2D2A0E9A220003C4F5;
+			packageReferences = (
+				CC484A4D2A0E9AA40003C4F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CC484A562A0E9AE00003C4F5 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
 			productRefGroup = CC484A372A0E9A220003C4F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,8 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC484A432A0E9A240003C4F5 /* Persistence.swift in Sources */,
+				CC73440E2A0ED38C00077BB0 /* Signup.swift in Sources */,
 				CC484A3C2A0E9A220003C4F5 /* ContentView.swift in Sources */,
+				CC7344142A0ED62400077BB0 /* Login.swift in Sources */,
 				CC484A462A0E9A240003C4F5 /* Solarsystem.xcdatamodeld in Sources */,
+				CC7344172A0ED66300077BB0 /* ProfileView.swift in Sources */,
 				CC484A3A2A0E9A220003C4F5 /* SolarsystemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Solarsystem/Solarsystem.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Solarsystem/Preview Content\"";
@@ -303,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Solarsystem/Solarsystem.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Solarsystem/Preview Content\"";
@@ -349,6 +430,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC484A4D2A0E9AA40003C4F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		CC484A562A0E9AE00003C4F5 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC484A4E2A0E9AA40003C4F5 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC484A4D2A0E9AA40003C4F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CC484A502A0E9AA40003C4F5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC484A4D2A0E9AA40003C4F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CC484A522A0E9AA40003C4F5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC484A4D2A0E9AA40003C4F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CC484A542A0E9AA40003C4F5 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC484A4D2A0E9AA40003C4F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		CC484A572A0E9AE00003C4F5 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC484A562A0E9AE00003C4F5 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CC484A442A0E9A240003C4F5 /* Solarsystem.xcdatamodeld */ = {

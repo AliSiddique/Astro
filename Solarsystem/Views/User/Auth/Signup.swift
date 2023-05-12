@@ -7,14 +7,19 @@
 
 import SwiftUI
 
-struct Signup: View {
+struct SignupView: View {
+    @State var email:String = ""
+    @State var password:String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("Email", text: $email)
+            SecureField("Passowrd", text: $password)
+        }
     }
 }
 
 struct Signup_Previews: PreviewProvider {
     static var previews: some View {
-        Signup()
+        SignupView()
     }
 }

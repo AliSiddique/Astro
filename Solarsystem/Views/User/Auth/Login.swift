@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct Login: View {
+    @State var email:String = ""
+    @State var password:String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            TextField("Email", text: $email)
+            SecureField("Passowrd", text: $password)
+        }
     }
 }
 
