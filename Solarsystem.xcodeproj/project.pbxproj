@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC29D7902A11A24700EEE784 /* Paywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29D78F2A11A24700EEE784 /* Paywall.swift */; };
+		CC36ABFE2A126C3500774313 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36ABFD2A126C3500774313 /* SignInWithAppleButton.swift */; };
+		CC36AC002A126D8800774313 /* SignInWithAppleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36ABFF2A126D8800774313 /* SignInWithAppleObject.swift */; };
 		CC484A3A2A0E9A220003C4F5 /* SolarsystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC484A392A0E9A220003C4F5 /* SolarsystemApp.swift */; };
 		CC484A3C2A0E9A220003C4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC484A3B2A0E9A220003C4F5 /* ContentView.swift */; };
 		CC484A3E2A0E9A240003C4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC484A3D2A0E9A240003C4F5 /* Assets.xcassets */; };
@@ -18,13 +21,28 @@
 		CC484A532A0E9AA40003C4F5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A522A0E9AA40003C4F5 /* FirebaseFirestore */; };
 		CC484A552A0E9AA40003C4F5 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A542A0E9AA40003C4F5 /* FirebaseMessaging */; };
 		CC484A582A0E9AE00003C4F5 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CC484A572A0E9AE00003C4F5 /* RevenueCat */; };
+		CC64B2BD2A0FC00B00179AA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC64B2BC2A0FC00B00179AA9 /* GoogleService-Info.plist */; };
 		CC73440E2A0ED38C00077BB0 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC73440D2A0ED38C00077BB0 /* Signup.swift */; };
 		CC7344112A0ED3F700077BB0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7344102A0ED3F700077BB0 /* StoreKit.framework */; };
 		CC7344142A0ED62400077BB0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344132A0ED62400077BB0 /* Login.swift */; };
 		CC7344172A0ED66300077BB0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344162A0ED66300077BB0 /* ProfileView.swift */; };
+		CC7344192A0ED7B400077BB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344182A0ED7B400077BB0 /* SettingsView.swift */; };
+		CC7344212A0ED8CC00077BB0 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */; };
+		CC8C20252A157DDE002350E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC8C20242A157DDE002350E1 /* .gitignore */; };
+		CCADD24D2A154EEA0070232A /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD24C2A154EEA0070232A /* PlanetsModel.swift */; };
+		CCADD24F2A1550FD0070232A /* PlanetsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD24E2A1550FD0070232A /* PlanetsHomeView.swift */; };
+		CCADD2512A1551100070232A /* PlanetSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD2502A1551100070232A /* PlanetSingleView.swift */; };
+		CCADD2532A1551250070232A /* MoonHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD2522A1551250070232A /* MoonHomeView.swift */; };
+		CCADD2552A1551310070232A /* SatelliteHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD2542A1551310070232A /* SatelliteHomeView.swift */; };
+		CCADD2572A1551D70070232A /* NewsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD2562A1551D70070232A /* NewsHomeView.swift */; };
+		CCADD2592A1552100070232A /* CometsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD2582A1552100070232A /* CometsHomeView.swift */; };
+		CCC6A0B62A101B9900D96D7D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC6A0B52A101B9900D96D7D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC29D78F2A11A24700EEE784 /* Paywall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paywall.swift; sourceTree = "<group>"; };
+		CC36ABFD2A126C3500774313 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		CC36ABFF2A126D8800774313 /* SignInWithAppleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleObject.swift; sourceTree = "<group>"; };
 		CC484A362A0E9A220003C4F5 /* Solarsystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solarsystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC484A392A0E9A220003C4F5 /* SolarsystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarsystemApp.swift; sourceTree = "<group>"; };
 		CC484A3B2A0E9A220003C4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,11 +51,23 @@
 		CC484A422A0E9A240003C4F5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CC484A452A0E9A240003C4F5 /* Solarsystem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solarsystem.xcdatamodel; sourceTree = "<group>"; };
 		CC484A472A0E9A240003C4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC64B2BC2A0FC00B00179AA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CC73440D2A0ED38C00077BB0 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		CC7344102A0ED3F700077BB0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		CC7344122A0ED40500077BB0 /* Solarsystem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Solarsystem.entitlements; sourceTree = "<group>"; };
 		CC7344132A0ED62400077BB0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		CC7344162A0ED66300077BB0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CC7344182A0ED7B400077BB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		CC8C20242A157DDE002350E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CCADD24C2A154EEA0070232A /* PlanetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
+		CCADD24E2A1550FD0070232A /* PlanetsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsHomeView.swift; sourceTree = "<group>"; };
+		CCADD2502A1551100070232A /* PlanetSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSingleView.swift; sourceTree = "<group>"; };
+		CCADD2522A1551250070232A /* MoonHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonHomeView.swift; sourceTree = "<group>"; };
+		CCADD2542A1551310070232A /* SatelliteHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteHomeView.swift; sourceTree = "<group>"; };
+		CCADD2562A1551D70070232A /* NewsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHomeView.swift; sourceTree = "<group>"; };
+		CCADD2582A1552100070232A /* CometsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometsHomeView.swift; sourceTree = "<group>"; };
+		CCC6A0B52A101B9900D96D7D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +87,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC29D78E2A11A23900EEE784 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				CC29D78F2A11A24700EEE784 /* Paywall.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
 		CC484A2D2A0E9A220003C4F5 = {
 			isa = PBXGroup;
 			children = (
+				CC8C20242A157DDE002350E1 /* .gitignore */,
 				CC484A382A0E9A220003C4F5 /* Solarsystem */,
 				CC484A372A0E9A220003C4F5 /* Products */,
 				CC73440F2A0ED3F700077BB0 /* Frameworks */,
@@ -77,6 +116,8 @@
 		CC484A382A0E9A220003C4F5 /* Solarsystem */ = {
 			isa = PBXGroup;
 			children = (
+				CCADD24A2A154EC60070232A /* Models */,
+				CC64B2BC2A0FC00B00179AA9 /* GoogleService-Info.plist */,
 				CC7344122A0ED40500077BB0 /* Solarsystem.entitlements */,
 				CC73440A2A0ED36100077BB0 /* Views */,
 				CC484A392A0E9A220003C4F5 /* SolarsystemApp.swift */,
@@ -101,7 +142,10 @@
 		CC73440A2A0ED36100077BB0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC29D78E2A11A23900EEE784 /* Payment */,
+				CC73441A2A0ED7F500077BB0 /* Content */,
 				CC73440B2A0ED36B00077BB0 /* User */,
+				CCC6A0B52A101B9900D96D7D /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +164,8 @@
 			children = (
 				CC73440D2A0ED38C00077BB0 /* Signup.swift */,
 				CC7344132A0ED62400077BB0 /* Login.swift */,
+				CC36ABFD2A126C3500774313 /* SignInWithAppleButton.swift */,
+				CC36ABFF2A126D8800774313 /* SignInWithAppleObject.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -136,8 +182,79 @@
 			isa = PBXGroup;
 			children = (
 				CC7344162A0ED66300077BB0 /* ProfileView.swift */,
+				CC7344182A0ED7B400077BB0 /* SettingsView.swift */,
+				CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		CC73441A2A0ED7F500077BB0 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC73441F2A0ED84900077BB0 /* News */,
+				CC73441E2A0ED83800077BB0 /* Satellites */,
+				CC73441D2A0ED81F00077BB0 /* Moons */,
+				CC73441C2A0ED80500077BB0 /* Comets */,
+				CC73441B2A0ED7FD00077BB0 /* Planets */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		CC73441B2A0ED7FD00077BB0 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD24E2A1550FD0070232A /* PlanetsHomeView.swift */,
+				CCADD2502A1551100070232A /* PlanetSingleView.swift */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		CC73441C2A0ED80500077BB0 /* Comets */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD2582A1552100070232A /* CometsHomeView.swift */,
+			);
+			path = Comets;
+			sourceTree = "<group>";
+		};
+		CC73441D2A0ED81F00077BB0 /* Moons */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD2522A1551250070232A /* MoonHomeView.swift */,
+			);
+			path = Moons;
+			sourceTree = "<group>";
+		};
+		CC73441E2A0ED83800077BB0 /* Satellites */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD2542A1551310070232A /* SatelliteHomeView.swift */,
+			);
+			path = Satellites;
+			sourceTree = "<group>";
+		};
+		CC73441F2A0ED84900077BB0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD2562A1551D70070232A /* NewsHomeView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		CCADD24A2A154EC60070232A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD24B2A154ECF0070232A /* Content */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCADD24B2A154ECF0070232A /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCADD24C2A154EEA0070232A /* PlanetsModel.swift */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +326,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8C20252A157DDE002350E1 /* .gitignore in Resources */,
 				CC484A412A0E9A240003C4F5 /* Preview Assets.xcassets in Resources */,
 				CC484A3E2A0E9A240003C4F5 /* Assets.xcassets in Resources */,
+				CC64B2BD2A0FC00B00179AA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,12 +341,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC484A432A0E9A240003C4F5 /* Persistence.swift in Sources */,
+				CCADD2552A1551310070232A /* SatelliteHomeView.swift in Sources */,
+				CC7344212A0ED8CC00077BB0 /* FavouritesView.swift in Sources */,
+				CCADD2512A1551100070232A /* PlanetSingleView.swift in Sources */,
+				CC7344192A0ED7B400077BB0 /* SettingsView.swift in Sources */,
+				CCC6A0B62A101B9900D96D7D /* HomeView.swift in Sources */,
+				CCADD2572A1551D70070232A /* NewsHomeView.swift in Sources */,
+				CC36ABFE2A126C3500774313 /* SignInWithAppleButton.swift in Sources */,
+				CCADD2532A1551250070232A /* MoonHomeView.swift in Sources */,
+				CC29D7902A11A24700EEE784 /* Paywall.swift in Sources */,
 				CC73440E2A0ED38C00077BB0 /* Signup.swift in Sources */,
 				CC484A3C2A0E9A220003C4F5 /* ContentView.swift in Sources */,
 				CC7344142A0ED62400077BB0 /* Login.swift in Sources */,
 				CC484A462A0E9A240003C4F5 /* Solarsystem.xcdatamodeld in Sources */,
+				CCADD2592A1552100070232A /* CometsHomeView.swift in Sources */,
+				CCADD24F2A1550FD0070232A /* PlanetsHomeView.swift in Sources */,
 				CC7344172A0ED66300077BB0 /* ProfileView.swift in Sources */,
+				CCADD24D2A154EEA0070232A /* PlanetsModel.swift in Sources */,
 				CC484A3A2A0E9A220003C4F5 /* SolarsystemApp.swift in Sources */,
+				CC36AC002A126D8800774313 /* SignInWithAppleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +492,7 @@
 				DEVELOPMENT_TEAM = P5AHP6SL3X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Solarsystem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -390,6 +523,7 @@
 				DEVELOPMENT_TEAM = P5AHP6SL3X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Solarsystem/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

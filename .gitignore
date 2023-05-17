@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcworkspace/
+*.xcworkspace/
+*.xcuserstate
+
+# Swift Package Manager
+/.build/
+
+# Cocoapods
+Pods/
+Podfile.lock
+DerivedData/
+*.xccheckout
+
+# Firebase
+/GoogleService-Info.plist
+
+# Core Data
+Model.xcdatamodeld/*.xcdatamodel/
+
+# RevenueCat
+Purchases.framework/
+/SolarSystemApp
+# CloudKit
+Model.xcdatamodeld/*.xcdatamodel/
+
+# Dependencies
+# Add specific dependencies or dependency folders you want to ignore
+
+# Build output
+build/
