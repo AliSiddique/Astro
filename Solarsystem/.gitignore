@@ -21,10 +21,10 @@ DerivedData/
 
 # Core Data
 Model.xcdatamodeld/*.xcdatamodel/
-Infor
+Info
 # RevenueCat
 Purchases.framework/
-/.SolarSystemApp
+SolarSystemApp
 # CloudKit
 Model.xcdatamodeld/*.xcdatamodel/
 
