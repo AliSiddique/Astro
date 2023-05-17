@@ -98,7 +98,6 @@
 		CC484A2D2A0E9A220003C4F5 = {
 			isa = PBXGroup;
 			children = (
-				CC8C20242A157DDE002350E1 /* .gitignore */,
 				CC484A382A0E9A220003C4F5 /* Solarsystem */,
 				CC484A372A0E9A220003C4F5 /* Products */,
 				CC73440F2A0ED3F700077BB0 /* Frameworks */,
@@ -116,6 +115,7 @@
 		CC484A382A0E9A220003C4F5 /* Solarsystem */ = {
 			isa = PBXGroup;
 			children = (
+				CC8C20242A157DDE002350E1 /* .gitignore */,
 				CCADD24A2A154EC60070232A /* Models */,
 				CC64B2BC2A0FC00B00179AA9 /* GoogleService-Info.plist */,
 				CC7344122A0ED40500077BB0 /* Solarsystem.entitlements */,
