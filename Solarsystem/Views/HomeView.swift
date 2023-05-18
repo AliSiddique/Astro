@@ -24,18 +24,18 @@ struct HomeView: View {
                         Text("Billing")
                     }
                 }
+            SettingsView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "gear")
+                        Text("Settings")
+                    }
+                }
             ProfileView()
                 .tabItem {
                     VStack {
                         Image(systemName: "person")
                         Text("Profile")
-                    }
-                }
-            Login()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "gear")
-                        Text("Settings")
                     }
                 }
         }

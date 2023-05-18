@@ -50,11 +50,17 @@ struct ProfileView: View {
                         showingSheet.toggle()
                     }
                     .sheet(isPresented: $showingSheet) {
-                        SettingsView()
+                        Paywall()
                     }
                 }
                 Section {
-                    Label("Settings", systemImage: "gear")
+                    NavigationLink {
+                        SettingsView()
+                    } label: {
+                        Label("Settings", systemImage: "gear")
+
+                    }
+
 
                     NavigationLink {
                         Text("R a Review")

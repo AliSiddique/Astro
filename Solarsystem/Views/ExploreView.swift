@@ -1,27 +1,27 @@
 //
-//  MoonHomeView.swift
+//  ExploreView.swift
 //  Solarsystem
 //
-//  Created by Ali Siddique on 17/05/2023.
+//  Created by Ali Siddique on 18/05/2023.
 //
 
 import SwiftUI
 
-struct MoonHomeView: View {
+struct ExploreView: View {
     var body: some View {
-        ZStack  {
+        ZStack {
             Image("Image10")
                 .resizable()
                 .ignoresSafeArea()
-            VStack {
-                Text("ali")
+            HStack {
+                
             }
         }
     }
 }
 
-struct MoonHomeView_Previews: PreviewProvider {
+struct ExploreView_Previews: PreviewProvider {
     static var previews: some View {
-        MoonHomeView()
+        ExploreView()
     }
 }

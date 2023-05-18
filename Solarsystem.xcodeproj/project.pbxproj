@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC23DAFB2A1676BC00BB7B33 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23DAFA2A1676BC00BB7B33 /* ExploreView.swift */; };
 		CC29D7902A11A24700EEE784 /* Paywall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29D78F2A11A24700EEE784 /* Paywall.swift */; };
 		CC36ABFE2A126C3500774313 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36ABFD2A126C3500774313 /* SignInWithAppleButton.swift */; };
 		CC36AC002A126D8800774313 /* SignInWithAppleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36ABFF2A126D8800774313 /* SignInWithAppleObject.swift */; };
@@ -29,6 +30,9 @@
 		CC7344192A0ED7B400077BB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344182A0ED7B400077BB0 /* SettingsView.swift */; };
 		CC7344212A0ED8CC00077BB0 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */; };
 		CC8C20252A157DDE002350E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC8C20242A157DDE002350E1 /* .gitignore */; };
+		CC9BC6EC2A167175000163BD /* MoonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC6EB2A167175000163BD /* MoonsModel.swift */; };
+		CC9BC6EE2A16728D000163BD /* CometsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC6ED2A16728D000163BD /* CometsModel.swift */; };
+		CC9BC6F02A1672BA000163BD /* SatellitesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC6EF2A1672BA000163BD /* SatellitesModel.swift */; };
 		CCADD24D2A154EEA0070232A /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD24C2A154EEA0070232A /* PlanetsModel.swift */; };
 		CCADD24F2A1550FD0070232A /* PlanetsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD24E2A1550FD0070232A /* PlanetsHomeView.swift */; };
 		CCADD2512A1551100070232A /* PlanetSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCADD2502A1551100070232A /* PlanetSingleView.swift */; };
@@ -40,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC23DAFA2A1676BC00BB7B33 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		CC29D78F2A11A24700EEE784 /* Paywall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paywall.swift; sourceTree = "<group>"; };
 		CC36ABFD2A126C3500774313 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
 		CC36ABFF2A126D8800774313 /* SignInWithAppleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleObject.swift; sourceTree = "<group>"; };
@@ -60,6 +65,9 @@
 		CC7344182A0ED7B400077BB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
 		CC8C20242A157DDE002350E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CC9BC6EB2A167175000163BD /* MoonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsModel.swift; sourceTree = "<group>"; };
+		CC9BC6ED2A16728D000163BD /* CometsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometsModel.swift; sourceTree = "<group>"; };
+		CC9BC6EF2A1672BA000163BD /* SatellitesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatellitesModel.swift; sourceTree = "<group>"; };
 		CCADD24C2A154EEA0070232A /* PlanetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
 		CCADD24E2A1550FD0070232A /* PlanetsHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsHomeView.swift; sourceTree = "<group>"; };
 		CCADD2502A1551100070232A /* PlanetSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetSingleView.swift; sourceTree = "<group>"; };
@@ -95,6 +103,13 @@
 			path = Payment;
 			sourceTree = "<group>";
 		};
+		CC2EC2022A168C69002955FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		CC484A2D2A0E9A220003C4F5 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +130,7 @@
 		CC484A382A0E9A220003C4F5 /* Solarsystem */ = {
 			isa = PBXGroup;
 			children = (
+				CC2EC2022A168C69002955FC /* ViewModels */,
 				CC8C20242A157DDE002350E1 /* .gitignore */,
 				CCADD24A2A154EC60070232A /* Models */,
 				CC64B2BC2A0FC00B00179AA9 /* GoogleService-Info.plist */,
@@ -142,6 +158,7 @@
 		CC73440A2A0ED36100077BB0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CC23DAFA2A1676BC00BB7B33 /* ExploreView.swift */,
 				CC29D78E2A11A23900EEE784 /* Payment */,
 				CC73441A2A0ED7F500077BB0 /* Content */,
 				CC73440B2A0ED36B00077BB0 /* User */,
@@ -253,6 +270,9 @@
 			isa = PBXGroup;
 			children = (
 				CCADD24C2A154EEA0070232A /* PlanetsModel.swift */,
+				CC9BC6EB2A167175000163BD /* MoonsModel.swift */,
+				CC9BC6ED2A16728D000163BD /* CometsModel.swift */,
+				CC9BC6EF2A1672BA000163BD /* SatellitesModel.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -340,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9BC6EC2A167175000163BD /* MoonsModel.swift in Sources */,
 				CC484A432A0E9A240003C4F5 /* Persistence.swift in Sources */,
 				CCADD2552A1551310070232A /* SatelliteHomeView.swift in Sources */,
 				CC7344212A0ED8CC00077BB0 /* FavouritesView.swift in Sources */,
@@ -347,6 +368,8 @@
 				CC7344192A0ED7B400077BB0 /* SettingsView.swift in Sources */,
 				CCC6A0B62A101B9900D96D7D /* HomeView.swift in Sources */,
 				CCADD2572A1551D70070232A /* NewsHomeView.swift in Sources */,
+				CC9BC6EE2A16728D000163BD /* CometsModel.swift in Sources */,
+				CC9BC6F02A1672BA000163BD /* SatellitesModel.swift in Sources */,
 				CC36ABFE2A126C3500774313 /* SignInWithAppleButton.swift in Sources */,
 				CCADD2532A1551250070232A /* MoonHomeView.swift in Sources */,
 				CC29D7902A11A24700EEE784 /* Paywall.swift in Sources */,
@@ -359,6 +382,7 @@
 				CC7344172A0ED66300077BB0 /* ProfileView.swift in Sources */,
 				CCADD24D2A154EEA0070232A /* PlanetsModel.swift in Sources */,
 				CC484A3A2A0E9A220003C4F5 /* SolarsystemApp.swift in Sources */,
+				CC23DAFB2A1676BC00BB7B33 /* ExploreView.swift in Sources */,
 				CC36AC002A126D8800774313 /* SignInWithAppleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
