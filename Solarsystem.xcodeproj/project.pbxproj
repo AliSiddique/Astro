@@ -30,6 +30,10 @@
 		CC7344192A0ED7B400077BB0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344182A0ED7B400077BB0 /* SettingsView.swift */; };
 		CC7344212A0ED8CC00077BB0 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */; };
 		CC8C20252A157DDE002350E1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC8C20242A157DDE002350E1 /* .gitignore */; };
+		CC8C98152A17BE4000FA243E /* CometsSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C98142A17BE4000FA243E /* CometsSingleView.swift */; };
+		CC8C98172A17BE4F00FA243E /* SatelliteSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C98162A17BE4F00FA243E /* SatelliteSingleView.swift */; };
+		CC9678802A17AFBF00B42F0D /* MoonSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96787F2A17AFBF00B42F0D /* MoonSingleView.swift */; };
+		CC9678832A17B0FB00B42F0D /* MoonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9678822A17B0FB00B42F0D /* MoonViewModel.swift */; };
 		CC9BC6EC2A167175000163BD /* MoonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC6EB2A167175000163BD /* MoonsModel.swift */; };
 		CC9BC6EE2A16728D000163BD /* CometsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC6ED2A16728D000163BD /* CometsModel.swift */; };
 		CC9BC6F02A1672BA000163BD /* SatellitesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9BC6EF2A1672BA000163BD /* SatellitesModel.swift */; };
@@ -65,6 +69,10 @@
 		CC7344182A0ED7B400077BB0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CC7344202A0ED8CC00077BB0 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
 		CC8C20242A157DDE002350E1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CC8C98142A17BE4000FA243E /* CometsSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometsSingleView.swift; sourceTree = "<group>"; };
+		CC8C98162A17BE4F00FA243E /* SatelliteSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteSingleView.swift; sourceTree = "<group>"; };
+		CC96787F2A17AFBF00B42F0D /* MoonSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonSingleView.swift; sourceTree = "<group>"; };
+		CC9678822A17B0FB00B42F0D /* MoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonViewModel.swift; sourceTree = "<group>"; };
 		CC9BC6EB2A167175000163BD /* MoonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonsModel.swift; sourceTree = "<group>"; };
 		CC9BC6ED2A16728D000163BD /* CometsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometsModel.swift; sourceTree = "<group>"; };
 		CC9BC6EF2A1672BA000163BD /* SatellitesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatellitesModel.swift; sourceTree = "<group>"; };
@@ -106,6 +114,7 @@
 		CC2EC2022A168C69002955FC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CC9678812A17B0EB00B42F0D /* content */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				CCADD2582A1552100070232A /* CometsHomeView.swift */,
+				CC8C98142A17BE4000FA243E /* CometsSingleView.swift */,
 			);
 			path = Comets;
 			sourceTree = "<group>";
@@ -238,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				CCADD2522A1551250070232A /* MoonHomeView.swift */,
+				CC96787F2A17AFBF00B42F0D /* MoonSingleView.swift */,
 			);
 			path = Moons;
 			sourceTree = "<group>";
@@ -246,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				CCADD2542A1551310070232A /* SatelliteHomeView.swift */,
+				CC8C98162A17BE4F00FA243E /* SatelliteSingleView.swift */,
 			);
 			path = Satellites;
 			sourceTree = "<group>";
@@ -256,6 +268,14 @@
 				CCADD2562A1551D70070232A /* NewsHomeView.swift */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		CC9678812A17B0EB00B42F0D /* content */ = {
+			isa = PBXGroup;
+			children = (
+				CC9678822A17B0FB00B42F0D /* MoonViewModel.swift */,
+			);
+			path = content;
 			sourceTree = "<group>";
 		};
 		CCADD24A2A154EC60070232A /* Models */ = {
@@ -363,6 +383,7 @@
 				CC9BC6EC2A167175000163BD /* MoonsModel.swift in Sources */,
 				CC484A432A0E9A240003C4F5 /* Persistence.swift in Sources */,
 				CCADD2552A1551310070232A /* SatelliteHomeView.swift in Sources */,
+				CC9678802A17AFBF00B42F0D /* MoonSingleView.swift in Sources */,
 				CC7344212A0ED8CC00077BB0 /* FavouritesView.swift in Sources */,
 				CCADD2512A1551100070232A /* PlanetSingleView.swift in Sources */,
 				CC7344192A0ED7B400077BB0 /* SettingsView.swift in Sources */,
@@ -370,6 +391,8 @@
 				CCADD2572A1551D70070232A /* NewsHomeView.swift in Sources */,
 				CC9BC6EE2A16728D000163BD /* CometsModel.swift in Sources */,
 				CC9BC6F02A1672BA000163BD /* SatellitesModel.swift in Sources */,
+				CC8C98152A17BE4000FA243E /* CometsSingleView.swift in Sources */,
+				CC8C98172A17BE4F00FA243E /* SatelliteSingleView.swift in Sources */,
 				CC36ABFE2A126C3500774313 /* SignInWithAppleButton.swift in Sources */,
 				CCADD2532A1551250070232A /* MoonHomeView.swift in Sources */,
 				CC29D7902A11A24700EEE784 /* Paywall.swift in Sources */,
@@ -382,6 +405,7 @@
 				CC7344172A0ED66300077BB0 /* ProfileView.swift in Sources */,
 				CCADD24D2A154EEA0070232A /* PlanetsModel.swift in Sources */,
 				CC484A3A2A0E9A220003C4F5 /* SolarsystemApp.swift in Sources */,
+				CC9678832A17B0FB00B42F0D /* MoonViewModel.swift in Sources */,
 				CC23DAFB2A1676BC00BB7B33 /* ExploreView.swift in Sources */,
 				CC36AC002A126D8800774313 /* SignInWithAppleObject.swift in Sources */,
 			);

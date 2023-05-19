@@ -9,7 +9,30 @@ import SwiftUI
 
 struct CometsHomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Image("Image10")
+                .resizable()
+                .ignoresSafeArea()
+            VStack {
+                ForEach(comets) { satellite in
+                    HStack {
+                        AsyncImage(url: URL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Earth_from_Space.jpg/1200px-Earth_from_Space.jpg?20070814130228")) { image in
+                            image
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .mask(RoundedRectangle(cornerRadius: 30))
+                        } placeholder: {
+                            ProgressView()
+                        }
+                        Text(satellite.name)
+                            .foregroundColor(.white)
+                    }
+                    .padding()
+                    .background(.black.opacity(0.5))
+                    .mask(RoundedRectangle(cornerRadius: 40))
+                }
+            }
+        }
     }
 }
 

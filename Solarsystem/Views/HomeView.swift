@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView {
-            PlanetsHomeView()
+            ExploreView()
                 .tabItem {
                     VStack {
                         Image(systemName: "house")
@@ -24,14 +24,14 @@ struct HomeView: View {
                         Text("Billing")
                     }
                 }
-            SettingsView()
+            MoonHomeView()
                 .tabItem {
                     VStack {
                         Image(systemName: "gear")
                         Text("Settings")
                     }
                 }
-            ProfileView()
+            MoonHomeView()
                 .tabItem {
                     VStack {
                         Image(systemName: "person")

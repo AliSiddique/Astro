@@ -8,25 +8,17 @@
 import SwiftUI
 
 
-struct Moon: Identifiable {
-    let id = UUID()
+struct Moon:Identifiable {
+    var id:String
     let name: String
-    let diameter: Double // in kilometers
-    let mass: Double // in kilograms
-    let orbitalPeriod: Double // in Earth days
-    let distanceFromPlanet: Double // in kilometers
-    let hasAtmosphere: Bool
-    let image: String
-}
-
-struct PlanetMoon : Identifiable {
-    var id = UUID()
-    let name: String
-    let diameter: Double // in kilometers
-    let mass: Double // in kilograms
-    let orbitalPeriod: Double // in Earth days
-    let distanceFromSun: Double // in millions of kilometers
-    let hasRings: Bool
-    let moons: [Moon]
-    let image: String
+    let diameter: Double
+    let mass: Double
+    let orbitalPeriod: Double
+    let surfaceTemperature: Double
+    let distanceFromPlanet: Double
+    let composition: String
+    let atmosphere: String?
+    let rotationPeriod: Double
+    let surfaceGravity: Double
+    let magneticField: Bool
 }
